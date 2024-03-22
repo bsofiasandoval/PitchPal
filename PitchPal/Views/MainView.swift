@@ -12,7 +12,8 @@ struct MainView: View {
         TabView{
             PitchesView()
                 .tabItem{
-                    Label("Pitches",systemImage: "book.pages")
+                    Label("Pitches",systemImage:"book.pages")
+                        
                 }
             DiscoverView()
                 .tabItem{

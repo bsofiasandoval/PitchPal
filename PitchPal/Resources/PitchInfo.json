@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Solar Future",
+        "notes": "Pitch about renewable energy solutions",
+        "clarity": 8.5,
+        "fluency": 7.0,
+        "leadingEmotion" : "fear",
+        "symbol": "sun.max"
+    },
+    {
+        "id": 2,
+        "title": "NatureMonitor",
+        "notes": "Pitch about game for biomonitoring capacitation",
+        "clarity": 7.5,
+        "fluency": 8.0,
+        "leadingEmotion" : "neutral",
+        "symbol": "leaf"
+    },
+    {
+        "id": 3,
+        "title": "Future of Transportation",
+        "notes": "Pitch about rideshare app",
+        "clarity": 8.0,
+        "fluency": 8.5,
+        "leadingEmotion" : "happiness",
+        "symbol": "car"
+    },
+    {
+        "id": 4,
+        "title": "Revolutionizing Education",
+        "notes": "Pitch about education innovating solution",
+        "clarity": 9.0,
+        "fluency": 9.0,
+        "leadingEmotion" : "nervous",
+        "symbol": "books.vertical"
+    },
+    {
+        "id": 5,
+        "title": "Healthcare Innovations",
+        "notes": "Pitch about a pharmaceutical company with transparent pricing",
+        "clarity": 8.5,
+        "fluency": 9.0,
+        "leadingEmotion" : "neutral",
+        "symbol": "cross.case"
+    }
+]

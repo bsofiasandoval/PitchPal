@@ -1,14 +1,14 @@
 //
-//  DashboardView.swift
+//  BigDashboardView.swift
 //  PitchPal
 //
-//  Created by Sofia Sandoval on 3/20/24.
+//  Created by Sofia Sandoval on 3/22/24.
 //
 
 import SwiftUI
 import Charts
 
-struct DashboardView: View {
+struct BigDashboardView: View {
     // Instantiate the ViewModel
     @StateObject private var viewModel = DashboardViewModel()
 
@@ -27,13 +27,13 @@ struct DashboardView: View {
             "Engagement": Color(red: 0.2667, green: 0.1529, blue: 0.1490),
             "Fluency": Color(red: 0.51, green: 0.18, blue: 0.28)
         ])
-        .frame(width: 341, height: 143)
+        .frame(width: 341, height: 200)
         .padding(.vertical)
     }
 }
 
-struct PitchEvaluationChartView_Previews: PreviewProvider {
+struct BigDashboardView_Previews: PreviewProvider {
     static var previews: some View {
-        DashboardView()
+        BigDashboardView()
     }
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct PitchPalApp: App {
     var body: some Scene {
         WindowGroup {
-            SignInView()
+            MainView()
         }
     }
 }
